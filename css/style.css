@@ -1,0 +1,48 @@
+body {
+    width: ;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.header__left {
+    color: blue;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-left: 10px;
+    color: blue;
+}
+
+.firstview {
+    height: 500px;
+    position: relative;
+}
+
+.firstview__img {
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+}
+
+.firstview h2 {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+}
+
+.firstview__box {
+    width: 100%;
+    height: 30px;
+    color: blue;
+}
