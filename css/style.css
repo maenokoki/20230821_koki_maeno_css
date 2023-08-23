@@ -1,12 +1,12 @@
 body {
-    width: ;
+    padding: 20px;
 }
 
 .header {
     height: 100px;
+    margin: 0px 10px;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px;
     font-weight: bold;
 }
 
@@ -33,6 +33,7 @@ li {
     display: inline-block;
     position: absolute;
     left: 50%;
+    z-index: 10;
 }
 
 .firstview h2 {
@@ -42,7 +43,11 @@ li {
 }
 
 .firstview__box {
-    width: 100%;
-    height: 30px;
-    color: blue;
+    width: 75%;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    z-index: 0;
 }
