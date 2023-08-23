@@ -14,11 +14,11 @@ body {
     color: blue;
 }
 
-ul {
+.header__nav {
     display: flex;
 }
 
-li {
+.header__nav-li {
     margin-left: 10px;
     color: blue;
 }
